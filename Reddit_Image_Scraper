@@ -80,6 +80,7 @@ foreach my $sub (@ARGV) {
 		print "File already exists..." . $img->{file_name} . "\n";
 	}
     }
+    undef @links;
 }
 
 sub get_next_page {
